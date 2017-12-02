@@ -38,6 +38,9 @@ delete from c_taxi where Trip_Miles = 0 OR Trip_Seconds = 0 OR Pickup_Community_
 Pickup_Centroid_Latitude IS NULL OR Pickup_Centroid_Longitude IS NULL OR Dropoff_Centroid_Latitude IS NULL OR Dropoff_Centroid_Longitude IS NULL;
 
 
+delete from c_taxi where Trip_Seconds > 3600 OR Trip_Miles > 50;
+delete from c_taxi where Company is null or Company = "";
+
 -- converting the datatype from string to date
 UPDATE c_taxi SET Trip_Start_Timestamp = STR_TO_DATE(Trip_Start_Timestamp, '%m/%d/%Y %h:%i:%s %p'),
 Trip_End_Timestamp = STR_TO_DATE(Trip_End_Timestamp, '%m/%d/%Y %h:%i:%s %p');
