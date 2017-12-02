@@ -40,6 +40,7 @@ Pickup_Centroid_Latitude IS NULL OR Pickup_Centroid_Longitude IS NULL OR Dropoff
 
 delete from c_taxi where Trip_Seconds > 3600 OR Trip_Miles > 50;
 delete from c_taxi where Company is null or Company = "";
+delete from c_taxi where Pickup_Centroid_Latitude = 0 OR Pickup_Centroid_Longitude = 0 OR Dropoff_Centroid_Latitude = 0 or Dropoff_Centroid_Longitude = 0;
 
 -- converting the datatype from string to date
 UPDATE c_taxi SET Trip_Start_Timestamp = STR_TO_DATE(Trip_Start_Timestamp, '%m/%d/%Y %h:%i:%s %p'),
@@ -48,3 +49,34 @@ Trip_End_Timestamp = STR_TO_DATE(Trip_End_Timestamp, '%m/%d/%Y %h:%i:%s %p');
 commit; 
           
          
+--Indexes
+CREATE INDEX pca ON c_taxi (Pickup_Community_Area);
+CREATE INDEX dca ON c_taxi (Dropoff_Community_Area);
+CREATE INDEX tid ON c_taxi (Taxi_ID);
+CREATE INDEX tst ON c_taxi (Trip_Start_Timestamp);
+CREATE INDEX ts ON c_taxi (Trip_Seconds);
+CREATE INDEX tm ON c_taxi (Trip_Miles);
+CREATE INDEX fr ON c_taxi (Fare);
+CREATE INDEX tt ON c_taxi (Trip_Total);
+CREATE INDEX cmp ON c_taxi (Company);
+
+--Table creation
+create table pickup_location as (
+select Pickup_Community_Area,
+avg(Pickup_Centroid_Latitude) as 'Avg_P_Lat' ,
+avg(Pickup_Centroid_Longitude) as 'Avg_P_Long'
+from c_taxi 
+group by Pickup_Community_Area  );
+
+create table dropoff_location as (
+select Dropoff_Community_Area,
+avg(Dropoff_Centroid_Latitude) as 'Avg_D_Lat' ,
+avg(Dropoff_Centroid_Longitude) as 'Avg_D_Long'
+from c_taxi 
+group by Dropoff_Community_Area  );
+
+--Dump
+mysqldump chicagotaxidb c_taxi > c_taxi_final.sql
+
+mysqldump -u root -h localhost -pMyNewPass chicagotaxidb c_taxi > c_taxi_final.sql
+
