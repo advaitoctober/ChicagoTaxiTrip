@@ -1,0 +1,69 @@
+Area,Community_Name,Leaving Time,Time to Reach (Min),Method,Nrow/Freq
+1,Rogers Park ,1:41 PM,19,Mode,21
+2,West Ridge ,1:34 PM,26,Average,133
+3,Uptown ,1:49 PM,11,Mode,218
+4,Lincoln Square ,1:39 PM,21,Mode,22
+5,North Center ,1:43 PM,17,Mode,38
+6,Lake View ,1:49 PM,11,Mode,1400
+7,Lincoln Park ,1:51 PM,9,Mode,1916
+8,Near North Side ,1:55 PM,5,Mode,28085
+9,Edison Park ,1:30 PM,30,Average,2
+10,Norwood Park ,1:34 PM,26,Average,18
+11,Jefferson Park ,1:34 PM,26,Average,39
+12,Forest Glen ,1:28 PM,32,Average,10
+13,North Park ,1:32 PM,28,Average,9
+14,Albany Park ,1:44 PM,16,Mode,42
+15,Portage Park ,1:34 PM,26,Average,28
+16,Irving Park ,1:42 PM,18,Mode,12
+17,Dunning ,1:31 PM,29,Average,4
+18,Montclare ,1:24 PM,36,Average,14
+19,Belmont Cragin ,1:30 PM,30,Average,16
+20,Hermosa ,1:35 PM,25,Average,14
+21,Avondale ,1:47 PM,13,Mode,11
+22,Logan Square ,1:49 PM,11,Mode,120
+23,Humboldt Park ,1:41 PM,19,Average,52
+24,West Town ,1:52 PM,8,Mode,914
+25,Austin ,1:37 PM,23,Average,3
+26,West Garfield Park ,1:45 PM,15,Average,2
+27,East Garfield Park ,1:45 PM,15,Average,9
+28,Near West Side ,1:50 PM,10,Mode,5733
+29,North Lawndale ,1:38 PM,22,Average,10
+30,South Lawndale ,1:35 PM,25,Average,16
+31,Lower West Side ,1:42 PM,18,Mode,11
+32,The Loop ,1:53 PM,7,Mode,17207
+33,Near South Side ,1:45 PM,15,Mode,1383
+34,Armour Square ,1:45 PM,15,Mode,49
+35,Douglas ,1:41 PM,19,Mode,24
+36,Oakland ,1:41 PM,19,Average,19
+37,Fuller Park ,1:29 PM,31,Average,8
+38,Grand Boulevard ,1:36 PM,24,Average,26
+39,Kenwood ,1:44 PM,16,Mode,38
+40,Washington Park ,1:33 PM,27,Average,6
+41,Hyde Park ,1:42 PM,18,Mode,101
+42,Woodlawn ,1:35 PM,25,Average,14
+43,South Shore ,1:36 PM,24,Average,38
+44,Chatham ,1:25 PM,35,Average,11
+45,Avalon Park ,1:31 PM,29,Average,4
+46,South Chicago ,1:27 PM,33,Average,5
+49,Roseland ,1:25 PM,35,Average,1
+50,Pullman ,1:35 PM,25,Average,2
+52,East Side ,1:16 PM,44,Average,1
+53,West Pullman ,1:25 PM,35,Average,1
+54,Riverdale ,1:07 PM,53,Average,1
+56,Garfield Ridge ,1:28 PM,32,Mode,443
+57,Archer Heights ,1:35 PM,25,Average,4
+58,Brighton Park ,1:33 PM,27,Average,10
+59,McKinley Park ,1:39 PM,21,Average,11
+60,Bridgeport ,1:39 PM,21,Average,102
+61,New City ,1:32 PM,28,Average,13
+62,West Elsdon ,1:27 PM,33,Average,20
+63,Gage Park ,1:17 PM,43,Average,3
+64,Clearing ,1:24 PM,36,Average,9
+65,West Lawn ,1:24 PM,36,Average,3
+66,Chicago Lawn ,1:25 PM,35,Average,4
+67,West Englewood ,1:28 PM,32,Average,1
+68,Englewood ,1:28 PM,32,Average,10
+69,Greater Grand Crossing ,1:34 PM,26,Average,9
+71,Auburn Gresham ,1:28 PM,32,Average,2
+76,O Hare ,1:28 PM,32,Mode,1018
+77,Edgewater ,1:47 PM,13,Mode,98
