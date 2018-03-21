@@ -7,6 +7,7 @@ UB EAS 503 Final project.
 ## Suhit Dutta suhitdat@buffalo.edu
 ## Advait Kulkarni advaitan@buffalo.edu
 
+Notebook link :  http://nbviewer.jupyter.org/github/varadtupe/ChicagoTaxiTrip/blob/master/Python%20Notebooks/Final_Chicago.ipynb
 # Introduction
 - The data was extracted from Chicago Data Portal
 - Main dataset contains total of 113 Million records
