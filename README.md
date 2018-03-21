@@ -2,7 +2,10 @@
 
 UB EAS 503 Final project.
 
-Chicago Taxi Trips
+# Contributors:
+## Varad Tupe varadsha@buffalo.edu
+## Suhit Dutta suhitdat@buffalo.edu
+## Advait Kulkarni advaitan@buffalo.edu
 
 # Introduction
 - The data was extracted from Chicago Data Portal
